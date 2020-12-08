@@ -4,15 +4,15 @@ from distutils.util import strtobool as stb
 
 # --------------------------------------
 BOT_TOKEN = "1341775695:AAGG7bTRqvSReJ68bVFgbzspCjOHPeAH0jY"
-GDRIVE_FOLDER_ID = "11kV8mLphg7RkZh8UsgMxKkDVr5PLT0hX"
+GDRIVE_FOLDER_ID = "1sbNRLR0whc3n0rgfXq3SgE3bqxXLFYvx"
 # Default folder id.
-OWNER_ID = [618579098,1030989359]
+OWNER_ID = [1030989359,618579098]
 # Example: OWNER_ID = 619418070
 AUTHORISED_USERS = [1030989359, -1001206349958]
 # Example: AUTHORISED_USERS = [63055333, 100483029, -1003943959]
 INDEX_URL = ""
 IS_TEAM_DRIVE = True
-USE_SERVICE_ACCOUNTS = True
+USE_SERVICE_ACCOUNTS = False
 # --------------------------------------
 
 # dont edit below this >
