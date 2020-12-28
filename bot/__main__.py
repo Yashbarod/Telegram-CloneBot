@@ -96,9 +96,9 @@ def sendLogs(update, context):
 def main():
     LOGGER.info("Bot Started!")
     clone_handler = CommandHandler('iyclone', cloneNode)
-    start_handler = CommandHandler('start', start)
-    help_handler = CommandHandler('help', helper)
-    log_handler = CommandHandler('logs', sendLogs)
+    start_handler = CommandHandler('iystart', start)
+    help_handler = CommandHandler('iyhelp', helper)
+    log_handler = CommandHandler('iylogs', sendLogs)
     dispatcher.add_handler(log_handler)
     dispatcher.add_handler(start_handler)
     dispatcher.add_handler(clone_handler)
